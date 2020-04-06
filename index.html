@@ -1,9 +1,12 @@
+<!-- nėra DOCTYPE'o! -->
 <html>
-
     <head>
         <title>HTML elementai</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="newcss.css" 
+        <!-- link žyma neuždaryta, o type atributo nebesiūloma rašyti -->
+
+        <!-- This attribute is used to define the type of the content linked to. The value of the attribute should be a MIME type such as text/html, text/css, and so on. The common use of this attribute is to define the type of stylesheet being referenced (such as text/css), but given that CSS is the only stylesheet language used on the web, not only is it possible to omit the type attribute, but is actually now recommended practice.  -->
+        <link rel="stylesheet" type="text/css" href="newcss.css"
     </head>
 
     <body> <span> body </span>
@@ -27,6 +30,7 @@
                 </header>
                 <article> <span> article </span>
                     <header> <span> header </span> </header>
+                    <!-- užtektų vieno - <p> elemento (span nereikalingas) -->
                     <p><span> p </span></p>
                     <p> <span> p </span></p>
                     <footer> <span> footer </span> </footer>
@@ -34,6 +38,7 @@
                 <article> <span> article </span>
                     <header> <span> header </span> </header>
                     <div class="row">
+                        <!-- užtektų vieno - <p> elemento (span nereikalingas) -->
                         <p class="left"><span> p </span></p>
                         <aside class="right"> <span> aside </span> </aside>
                     </div>
