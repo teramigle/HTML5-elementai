@@ -1,16 +1,19 @@
 body, header, nav, footer, article, aside, section, p {
-    border-style: solid; 
-    border-width: 1px; 
+  /* border shorthand'as: border: 1px solid #000; arba border: 1px solid; - kadangi juoda ir taip numatytoji reikšmė */
+    border-style: solid;
+    border-width: 1px;
     text-align: center;
     padding: 3px 10px;
     margin: 10px auto;
-    
+
+
 }
 html {
     background-color: white;
 }
 body {
     width: 40%;
+    /* gero css stiliaus rašymo taisyklė: hex kodą siūloma rašyti mažosiomis #a9a9a9 (bet rašymas didžiosiomis - ne klaida!)*/
     background-color: #A9A9A9;
     box-shadow: 0px 7px 12px 5px #606060;
 }
@@ -53,3 +56,4 @@ p.left, aside {
 footer{
     padding: 15px;
 }
+/* su stiliais susitvarkyta šauniai. Ypač su flex'u ;) */
